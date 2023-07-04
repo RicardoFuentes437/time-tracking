@@ -1,0 +1,87 @@
+@import '../variables';
+
+.time-card{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 210px;
+    border-radius: 16px;
+
+    #time-card-icon-section{
+        height: 40px;
+
+        .time-card-icon{
+            height: 100%;
+            float: right;
+        }
+    }
+
+    .card-content{
+        background-color: $Dark-blue;
+        border-radius: 15px;
+        height: 100%;
+        padding: 10px 15px 0px 15px;
+        color: $Pale-Blue;
+        transition: all 0.5s;
+
+        .time-upper-section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 500;
+
+            .ellipsis-icon{
+                width: 20px;
+                height: 5px;
+                cursor: pointer;
+            }
+        }
+
+        .time-lower-section{
+
+            .card-hours{
+                font-size: 35px;
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+            }
+
+            .card-comparison{
+                font-weight: 300;
+            }
+        }
+        
+
+        &:hover{
+            background-color: $Desaturated-blue;
+            cursor: pointer;
+        }
+    }
+
+    @media (max-width: 1050px) {
+        height: 200px;
+    }
+
+    @media (max-width: 600px) {
+        height: 150px;
+        width: 350px;
+
+        .card-content{
+            padding: 0 15px 0px 15px;
+            
+            .time-lower-section{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .card-hours{
+                    font-size: 28px;
+                }
+            }
+        }
+        
+    }
+    
+}
