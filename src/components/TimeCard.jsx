@@ -16,7 +16,7 @@ const TimeCard = ({props, id}) => {
                 </div>
                 <div className='time-lower-section'>
                     <p className="card-hours">{props.hours}</p>
-                    <p className='card-comparison'>Last Week - {props.comparison}</p>
+                    <p className='card-comparison'>{props.comparison}</p>
                 </div>
             </div>
         </div>
