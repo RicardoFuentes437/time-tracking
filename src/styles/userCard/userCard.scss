@@ -38,19 +38,8 @@
         color: $Blue;
         font-weight: 300;
 
-        #daily, #monthly{
+        #daily, #weekly, #monthly{
             transition: all 0.2s;
-            cursor: pointer;
-
-            &:hover{
-                color: $Pale-Blue;
-                font-weight: 400;
-            }
-        }
-
-        #weekly{
-            color: $Pale-Blue;
-            font-weight: 400;
             cursor: pointer;
         }
     }
