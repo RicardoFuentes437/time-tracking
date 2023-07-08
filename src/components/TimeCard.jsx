@@ -6,7 +6,7 @@ import '../styles/timeCard/timeCard.scss';
 const TimeCard = ({props, id}) => {
     return (
         <div className='time-card' id={id}>
-            <div id="time-card-icon-section">
+            <div className="time-card-icon-section">
                 <img src={props.icon} alt="card-icon" className='time-card-icon'></img>
             </div>
             <div className='card-content'>
