@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/RicardoFuentes437/time-tracking)
+- Live Site URL: [Live Site](https://ricardofuentes437.github.io/time-tracking/)
 
 ## My process
 
@@ -37,24 +37,22 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Sass
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
+I got to work again with CSS Grid, which was very useful for the time tracking cards section, since i don't use it very often i got to learn again how to use and implement it, it was interesting and fun.
 
 ### Continued development
 
+I would like to continue working with CSS Grid to learn its full potential, i know there's a lot of things that i don't know about it yet so i think it would be fun to implement them.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) - This is a complete CSS Grid guide, it's very helpful and you can find whatever you need to implement the kind of grid that you need for your project.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Ricardo Fuentes Urbina](https://github.com/RicardoFuentes437)
+- Frontend Mentor - [@RicardoFuentes437](https://www.frontendmentor.io/profile/RicardoFuentes437)
